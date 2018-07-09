@@ -1,0 +1,46 @@
+@import "../page-parts/intro"
+@import "../page-parts/icon-set-one"
+@import "../page-parts/how-it-works"
+@import "../page-parts/why-us"
+@import "../page-parts/same-day"
+@import "../details/page-detail"
+@import "../details/gray-bar"
+
+@font-face
+    font-family: copperplate-gothic
+    src: url(../fonts/Copperplate-Gothic-std-32-AB.woff)
+
+body
+    margin: 0px;
+    overflow-x: hidden;
+
+.menu
+    display: grid;
+    background-color: $gray;
+    position: fixed;
+    z-index: 100;
+    width: 100%
+    font-family: copperplate-gothic;
+    padding: 5px;
+    padding-left: 10px;
+    opacity: .8
+    grid-template-rows: auto;
+    align-items: center;
+    grid-template-areas: 'r4 . . r1 r2 r3'
+    a
+        color: $blue;
+        text-decoration: none;
+    .right1
+        grid-area: r1;
+    .right2
+        grid-area: r2;
+    .right3
+        grid-area: r3;
+    .r4
+        grid-area: r4
+
+
+
+    
+        
+

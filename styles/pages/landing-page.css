@@ -1,0 +1,299 @@
+@media (max-width: 4000px) {
+  .intro {
+    display: grid;
+    background-image: url("../images/woman-with-cash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 120vh;
+    opacity: 2%;
+    color: white; }
+  .icon-set-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-gap: 200px;
+    -webkit-transform: translate(30px, 90px);
+    -ms-transform: translate(30px, 90px);
+    transform: translate(30px, 90px); }
+    .icon-set-one img {
+      width: 100px;
+      padding-left: 25%; }
+    .icon-set-one .icon-text {
+      color: white; }
+  .blue-backing {
+    background-color: #02446A;
+    border-bottom: 2em white solid;
+    height: auto;
+    justify-self: right;
+    -webkit-transform: translateY(400px);
+    -ms-transform: translateY(400px);
+    transform: translateY(400px); }
+    .blue-backing h1 {
+      width: 80vw;
+      margin: 0px;
+      font-size: 80px;
+      font-family: copperplate-gothic;
+      padding-left: 3vw;
+      -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      transform: translateY(20px); }
+  .black {
+    color: black;
+    -webkit-transform: translateY(250px);
+    -ms-transform: translateY(250px);
+    transform: translateY(250px); } }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+h1 {
+  color: white; }
+
+h2 {
+  color: white; }
+
+button {
+  border: 2px solid #8600ec;
+  background-color: #B553FF;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  -webkit-transform: translateY(150px);
+  -ms-transform: translateY(150px);
+  transform: translateY(150px); }
+  button:hover {
+    background-color: #9f20ff;
+    border: 2px solid #7800d3; }
+
+.btn-bottom {
+  border: 2px solid #8600ec;
+  background-color: #B553FF;
+  color: white;
+  font-size: 1.5em;
+  width: 300px;
+  height: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px; }
+  .btn-bottom:hover {
+    background-color: #9f20ff;
+    border: 2px solid #7800d3; }
+
+@media (max-width: 4000px) {
+  .how-it-works {
+    display: grid; }
+  .how-header {
+    justify-self: right;
+    width: 70vw;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px); }
+  .how-image {
+    background-image: url("../images/steps.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 200px;
+    background-position-y: -100px;
+    height: 900px;
+    padding-left: 30vw;
+    padding-right: 550px; }
+    .how-image p {
+      -webkit-transform: translateY(200px);
+      -ms-transform: translateY(200px);
+      transform: translateY(200px); }
+  .icon-set-two {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 100px;
+    -webkit-transform: translate(0vw, 5vw);
+    -ms-transform: translate(0vw, 5vw);
+    transform: translate(0vw, 5vw); }
+    .icon-set-two .icon {
+      display: grid;
+      justify-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 5px;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      border: 3px solid #008498;
+      border-radius: 50px;
+      width: 60px;
+      height: 60px;
+      font-weight: 700; }
+  .icon-1 {
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .icon-1 .icon-text {
+      text-align: center; }
+  .icon-2 {
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .icon-2 .icon-text {
+      text-align: center; }
+  .icon-3 {
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .icon-3 .icon-text {
+      text-align: center; }
+  .icon-4 {
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .icon-4 .icon-text {
+      text-align: center; }
+  .icon-5 {
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .icon-5 .icon-text {
+      text-align: center; } }
+
+.why-us {
+  display: grid; }
+
+.why {
+  width: 50vw; }
+
+.why-info {
+  display: grid;
+  grid-gap: 40px;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 300px;
+  margin-right: 300px;
+  height: 20vw; }
+
+@media (max-width: 4000px) {
+  .same-day {
+    display: grid; }
+    .same-day p {
+      padding-left: 200px;
+      padding-top: 50px;
+      padding-right: 50vw; }
+    .same-day .same-day-image {
+      background-image: url("../images/ok.jpg");
+      background-size: 100%;
+      height: 40vw; }
+  .same-day-header {
+    justify-self: left;
+    width: 50vw; }
+  .btn-bottom {
+    margin-left: 20vw; } }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+h1 {
+  color: white; }
+
+h2 {
+  color: white; }
+
+button {
+  border: 2px solid #8600ec;
+  background-color: #B553FF;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  -webkit-transform: translateY(150px);
+  -ms-transform: translateY(150px);
+  transform: translateY(150px); }
+  button:hover {
+    background-color: #9f20ff;
+    border: 2px solid #7800d3; }
+
+.btn-bottom {
+  border: 2px solid #8600ec;
+  background-color: #B553FF;
+  color: white;
+  font-size: 1.5em;
+  width: 300px;
+  height: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 10px; }
+  .btn-bottom:hover {
+    background-color: #9f20ff;
+    border: 2px solid #7800d3; }
+
+@media (max-width: 4000px) {
+  .gray-bar {
+    display: grid;
+    background-color: #e5e5e5;
+    padding-top: 10px;
+    font-family: copperplate-gothic;
+    margin-top: 150px;
+    margin-bottom: 70px; }
+    .gray-bar h2 {
+      color: #008498;
+      font-size: 30px;
+      justify-self: center; } }
+
+@font-face {
+  font-family: copperplate-gothic;
+  src: url(../fonts/Copperplate-Gothic-std-32-AB.woff); }
+
+body {
+  margin: 0px;
+  overflow-x: hidden; }
+
+.menu {
+  display: grid;
+  background-color: #e5e5e5;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  font-family: copperplate-gothic;
+  padding: 5px;
+  padding-left: 10px;
+  opacity: .8;
+  grid-template-rows: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-template-areas: 'r4 . . r1 r2 r3'; }
+  .menu a {
+    color: #008498;
+    text-decoration: none; }
+  .menu .right1 {
+    grid-area: r1; }
+  .menu .right2 {
+    grid-area: r2; }
+  .menu .right3 {
+    grid-area: r3; }
+  .menu .r4 {
+    grid-area: r4; }
